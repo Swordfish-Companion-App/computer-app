@@ -26,7 +26,6 @@ namespace connection_app
                 Icon = SystemIcons.Application,
                 ContextMenuStrip = new ContextMenuStrip()
             };
-
             trayIcon.ContextMenuStrip.Items.Add("Exit", null, Exit);
             trayIcon.Visible = true;
 

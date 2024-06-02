@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LeagueWindows")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+426f962d47005c4d889f663b276d6898f1a9b5d7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+942f3d4de9a52e1444ef116aaf663e7d5f48c29f")]
 [assembly: System.Reflection.AssemblyProductAttribute("LeagueWindows")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LeagueWindows")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -12,3 +12,4 @@ C:\Users\lucyp\source\repos\LeagueWindows\LeagueWindows\obj\Debug\net8.0-windows
 C:\Users\lucyp\source\repos\LeagueWindows\LeagueWindows\obj\Debug\net8.0-windows\LeagueWindows.pdb
 C:\Users\lucyp\source\repos\LeagueWindows\LeagueWindows\obj\Debug\net8.0-windows\LeagueWindows.genruntimeconfig.cache
 C:\Users\lucyp\source\repos\LeagueWindows\LeagueWindows\obj\Debug\net8.0-windows\ref\LeagueWindows.dll
+C:\Users\lucyp\source\repos\LeagueWindows\LeagueWindows\obj\Debug\net8.0-windows\LeagueWindows.sourcelink.json

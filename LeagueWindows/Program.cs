@@ -2,6 +2,7 @@
 using System.Drawing;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Drawing;
 
 namespace connection_app
 {
@@ -27,6 +28,7 @@ namespace connection_app
                 ContextMenuStrip = new ContextMenuStrip()
             };
             trayIcon.ContextMenuStrip.Items.Add("Exit", null, Exit);
+            // trayIcon.Icon = Icon.ExtractAssociatedIcon("LeagueWindows/assets/img/logos/trayicon.ico"); // FIX: Icon not found error
             trayIcon.Visible = true;
 
             Task.Run(() => CheckUsernameLoop());
@@ -43,10 +45,14 @@ namespace connection_app
                 {
                     if (!Program.InMatch)
                     {
+                        string[] parts = username.Split('#');
                         Program.InMatch = true;
-                        Logger.Log($"Username found: {username}. User is in a match.");
+                        var username_cut = parts[0];
+                        var gametag = parts[1];
+
+                        Logger.Log($"Username found: '{username_cut}', with game tag '{gametag}'");
+                        trayIcon.Text = $"Username found: '{username_cut}', with game tag '{gametag}'";
                     }
-                    trayIcon.Text = $"{username} is in a match";
                 }
                 else
                 {
